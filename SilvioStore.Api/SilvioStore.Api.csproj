@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="elmah.Io.AspnetCore" Version="4.3.48" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.ResponseCompression" Version="2.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\net6.0\SilvioStore.Api.csproj.CopyComplete" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SilvioStore.Domain\SilvioStore.Domain.csproj" />
+    <ProjectReference Include="..\SilvioStore.Shared\SilvioStore.Shared.csproj" />
+    <ProjectReference Include="..\SilvioStore.Infra\SilvioStore.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

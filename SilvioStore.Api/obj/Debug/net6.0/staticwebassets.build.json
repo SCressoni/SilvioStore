@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fyMbDudZgy3s9YOQe/4juy4cEP6pvmywb5hgmBGgHGc=",
+  "Source": "SilvioStore.Api",
+  "BasePath": "_content/SilvioStore.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

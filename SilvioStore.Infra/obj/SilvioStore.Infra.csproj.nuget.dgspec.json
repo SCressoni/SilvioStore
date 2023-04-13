@@ -1,0 +1,197 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/silviocressoni/Documents/Code/Dotnet/Projects/Balta/SilvioStore/SilvioStore.Infra/SilvioStore.Infra.csproj": {}
+  },
+  "projects": {
+    "/Users/silviocressoni/Documents/Code/Dotnet/Projects/Balta/SilvioStore/SilvioStore.Domain/SilvioStore.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/Balta/SilvioStore/SilvioStore.Domain/SilvioStore.Domain.csproj",
+        "projectName": "SilvioStore.Domain",
+        "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/Balta/SilvioStore/SilvioStore.Domain/SilvioStore.Domain.csproj",
+        "packagesPath": "/Users/silviocressoni/.nuget/packages/",
+        "outputPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/Balta/SilvioStore/SilvioStore.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/silviocressoni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/silviocressoni/Documents/Code/Dotnet/Projects/Balta/SilvioStore/SilvioStore.Shared/SilvioStore.Shared.csproj": {
+                "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/Balta/SilvioStore/SilvioStore.Shared/SilvioStore.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidator": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/silviocressoni/Documents/Code/Dotnet/Projects/Balta/SilvioStore/SilvioStore.Infra/SilvioStore.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/Balta/SilvioStore/SilvioStore.Infra/SilvioStore.Infra.csproj",
+        "projectName": "SilvioStore.Infra",
+        "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/Balta/SilvioStore/SilvioStore.Infra/SilvioStore.Infra.csproj",
+        "packagesPath": "/Users/silviocressoni/.nuget/packages/",
+        "outputPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/Balta/SilvioStore/SilvioStore.Infra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/silviocressoni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/silviocressoni/Documents/Code/Dotnet/Projects/Balta/SilvioStore/SilvioStore.Domain/SilvioStore.Domain.csproj": {
+                "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/Balta/SilvioStore/SilvioStore.Domain/SilvioStore.Domain.csproj"
+              },
+              "/Users/silviocressoni/Documents/Code/Dotnet/Projects/Balta/SilvioStore/SilvioStore.Shared/SilvioStore.Shared.csproj": {
+                "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/Balta/SilvioStore/SilvioStore.Shared/SilvioStore.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/silviocressoni/Documents/Code/Dotnet/Projects/Balta/SilvioStore/SilvioStore.Shared/SilvioStore.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/Balta/SilvioStore/SilvioStore.Shared/SilvioStore.Shared.csproj",
+        "projectName": "SilvioStore.Shared",
+        "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/Balta/SilvioStore/SilvioStore.Shared/SilvioStore.Shared.csproj",
+        "packagesPath": "/Users/silviocressoni/.nuget/packages/",
+        "outputPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/Balta/SilvioStore/SilvioStore.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/silviocressoni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidator": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
